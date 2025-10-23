@@ -1,0 +1,46 @@
+h1 {
+	text-align: center;
+	color: red;
+	animation: animacja 4s infinite;
+}
+
+h2 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+body {
+    background-color: blanchedalmond;
+
+
+}
+
+h1 {
+    color: rgb(241, 4, 8);
+}
+p:hover {
+	animation: animacja 2s infinite;
+}
+
+@keyframes animacja{
+
+	0% {
+		color: red;
+	}
+
+	50% {
+		color: blue;
+	}
+
+	100% {
+		color: red;
+	}
+}
+
+iframe {
+	display: block;
+	margin: 0 auto;
+}
+
